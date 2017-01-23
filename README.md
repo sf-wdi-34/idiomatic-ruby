@@ -34,26 +34,33 @@ Idiomatic is the concept of using, containing, or denoting expressions that are 
 
 Ruby takes advantage of having language-specific expressions and methods. The more comfortable you are with built-in features, the more succinct and self-documenting your codebase will become.
 
-![Don't talk so much!](http://i.giphy.com/iW8tsoJWcfPc4.gif)
+
+###Ruby Idioms
+
+* use return statements only if needed for readability - take advantage of implicit returns!
+* use `something.nil?` to check if something is `nil`
+* use `something.zero?` to check if something is `0` (zero is truthy)
+* negative indices: `cats[-1]`
+* ranges: `(0..10)` for inclusive or `(4...12)` for right-exclusive
+* use `.first` or `.last` if dealing with first or last item
+* other named methods: `cats.empty?`, `cats.any?`
+
 
 ##TODO:
 Navigate to this [Google Document](https://goo.gl/SHzrGD) and create Ruby methods for each problem.  You will be coding as a table group.  Once your method achieves the provided input/output goals, submit your group's code in the appropriate space.  Try to keep it short and sweet!
 
 
-
-
 ## What did we cover?
 <!-- call  out the skills that we have learned -->
-- Returning implicitly is now a thing
-- Return early and return often
-- Check if a helper method exists before creating one
-- Ruby has **many** built-in methods available to us.  
+- Use implicit return thoughtfully.
+- Check if a helper method exists before creating one.
+- Ruby has many built-in methods available to us.  
+- **Don't sacrifice readability for shorter, cute or clever solutions.**
 
  
 ## Further Reading:
 <!-- Links to further exploration -->
 - [Ruby String Documentation](http://ruby-doc.org/core-2.2.0/String.html)
 - [Ruby Array Documentation](http://ruby-doc.org/core-2.2.0/Array.html)
-- [Some rather clever Ruby idioms](http://best-ruby.com/idiomatic_ruby.html)
 - [Idiomatic Programming](http://mrjoelkemp.com/2013/05/what-is-idiomatic-programming/)
 - [A crazy matrix of popular idioms and languages](http://www.programming-idioms.org/about#about-block-language-coverage)
