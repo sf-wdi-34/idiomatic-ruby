@@ -28,13 +28,13 @@ Market: SF
 - Navigate and execute Ruby code in `irb`, `pry`, or a `.rb` file.
 
 
-##Overview
+## Overview
 Idioms are expressions that are natural to a native speaker. Idiomatic programming means that your program contains statements that are unique to the language; i.e., you actually use the expressive power of the language in your programs.
 
 Ruby takes advantage of having language-specific expressions and methods. The more comfortable you are with built-in features, the more succinct and self-documenting your codebase will become.
 
 
-###Ruby Idioms
+### Ruby Idioms
 
 * use `return` statements only if needed for readability - take advantage of implicit returns!
 * use `something.nil?` to check if something is `nil`
@@ -44,8 +44,24 @@ Ruby takes advantage of having language-specific expressions and methods. The mo
 * use `.first` or `.last` if dealing with first or last item
 * other named methods: `cats.empty?`, `cats.any?`
 
+### Method Vocabulary
 
-###Practice
+Research one of the following methods.  Write a small code sample that demonstrates how you would use it, and prepare to show your example to the class. When your method comes up, we'll share them in [https://coderpad.io/EN4D3RXG](https://coderpad.io/EN4D3RXG).
+
+1. `Enumerable#sort_by`  
+2. `Array#map`  
+3. `Enumerable#inject`  
+4. `Hash#each`  
+5. `Hash#merge`  
+6. `Array#slice`  
+7. `String#first` and `String#last`  
+8. `String#index` 
+9. `Array#unshift` and `Array#shift`  
+10. `Array#push` and `Array#pop`  
+11. `Array#uniq`  
+
+
+### Practice
 
 For this activity, you will be coding in small teams. 
 
