@@ -46,7 +46,7 @@ Ruby takes advantage of having language-specific expressions and methods. The mo
 
 ### Method Vocabulary
 
-Research one of the following methods.  Write a small code sample that demonstrates how you would use it, and prepare to show your example to the class. When your method comes up, we'll share them in [https://coderpad.io/EN4D3RXG](https://coderpad.io/EN4D3RXG).
+Research one of the following methods.  Write a small code sample that demonstrates how you would use it, and prepare to show your example to the class. When your method comes up, we'll share them in [https://coderpad.io/EN4D3RXG](https://coderpad.io/P2EFQ4M6).
 
 1. `Enumerable#sort_by`  
 2. `Array#map`  
