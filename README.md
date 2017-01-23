@@ -49,10 +49,9 @@ Ruby takes advantage of having language-specific expressions and methods. The mo
 
 For this activity, you will be coding in small teams. 
 
-Before we begin, choose someone to start as the group's "scribe" or "driver".
+Before we begin, choose someone to start as the group's "scribe". This person will copy the group's code into the document linked below. 
 
-Navigate to this [Google Document](https://goo.gl/HJUhFO), and create Ruby methods for each problem along with the practice timer.    
-
+Navigate to this [Google Document](https://goo.gl/HJUhFO), and create Ruby methods for each problem along with the group practice timer.    
 Once your method achieves the provided input/output goals, submit your group's code in the appropriate space.  
 
 Try to keep it short and sweet!
