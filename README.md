@@ -80,6 +80,11 @@ Try to keep it short and sweet!
 - Ruby has many built-in methods available to us.  
 - **Don't sacrifice readability for shorter, cute or clever solutions.**
 
+## What didn't we cover yet?
+
+- Object-Oriented Programming Create classes to keep code DRY and to group methods and attributes.
+- Gems! In addition to looking for built-in methods, look for gems that can help solve your problem.
+
  
 ## Further Reading:
 <!-- Links to further exploration -->
