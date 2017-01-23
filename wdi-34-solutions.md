@@ -11,7 +11,7 @@ end
 ```
 
 
-### Mike - Array#slice
+#### Mike - Array#slice
 
 ```ruby
 array = [1,2,3,4,5,6]
@@ -20,7 +20,7 @@ p array.slice(2,5) #=> [3,4,5,6]
 p array.slice!(2,5) #=> array = [3,4,5,6]
 ```
 
-### Shiv -String#first & String#last
+#### Shiv -String#first & String#last
 
 ```ruby
  string = ["ABC", "HELLO THERE"]
@@ -28,7 +28,7 @@ p array.slice!(2,5) #=> array = [3,4,5,6]
  puts string[0].chars.last #=> C
 ```
 
-### LD - Hash#merge
+#### LD - Hash#merge
 ```ruby
 h1 = { "a" => 100, "b" => 200 }
 h2 = { "b" => 242, "c" => 300 }
@@ -36,7 +36,7 @@ p h1.merge(h2)
 p h1.merge(h2){|key, oldval, newval| newval + oldval}
 ```
 
-### Greice - Array#map
+#### Greice - Array#map
 ```ruby
 array = [3,4,6,8]
 p array.map{|x| x + 2}
@@ -50,7 +50,7 @@ p arr
 
 ```
 
-### Alex - string.index()
+#### Alex - string.index()
 
 ```ruby
   string = "example"
@@ -64,7 +64,7 @@ p arr
   
   
 
-### Zach - push and pop
+#### Zach - push and pop
 ```ruby
 grocery_list = []
 p grocery_list.push ("pizza")
@@ -79,7 +79,7 @@ p grocery_list
   
   
   
-### Amber - enumerable#inject
+#### Amber - enumerable#inject
 
 ```ruby
 p [1,2,3,4].inject { |sum, n| sum + n }
@@ -89,7 +89,7 @@ p ["hi","hello","bye"].inject { |x,y| x+y }
 ```
 
   
-### RJ - array#uniq
+#### RJ - array#uniq
 
 ```ruby
 wdi_class = ['aaron','shiv','shiv','ryan','amber','zach', 'LD','Ricardo','greice','RJ','alex','mike']
@@ -102,7 +102,7 @@ p wdi_class.uniq s
 # Now we have one of each item in the Array, and our one unique and wonderful Shiv.
 ```
 
-#Ryan - enumerable sort_by
+####Ryan - enumerable sort_by
 
 ```ruby
  h = {:a => 2, :b => 1, :c => 4}
@@ -111,7 +111,7 @@ p wdi_class.uniq s
  p h.sort_by {|k, v| -v}.reverse
 ```
 
-#Ricardo Array#unshift and Array#shift
+####Ricardo Array#unshift and Array#shift
 ```ruby
  arr = [1,2,3,4,5]
  puts arr.shift  #=> 1
